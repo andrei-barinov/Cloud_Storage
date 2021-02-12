@@ -15,7 +15,7 @@ public class UserRepository {
 
     public Optional<User> findUserByEmailAndPassword(String email, String password){
         Connection connection = DataSource.getConnection();
-        logger.info("Подключение у БД прошло успешно");
+        logger.info("Подключение к БД прошло успешно");
         try {
             PreparedStatement statement = connection.prepareStatement(
                     "SELECT * FROM data WHERE email = ? AND password = ?"
@@ -36,5 +36,44 @@ public class UserRepository {
             throwable.printStackTrace();
         }
         return Optional.empty();
+    }
+
+    public void changePassword(String nickname, String newPassword){
+        logger.info("Вызван метод changePassword()");
+        Connection connection = DataSource.getConnection();
+        logger.info("Подключение к БД прошло успешно");
+        try {
+            PreparedStatement statement = connection.prepareStatement(
+                    "UPDATE data SET password = ? WHERE nickname = ?"
+            );
+
+            statement.setString(1, newPassword);
+            statement.setString(2, nickname);
+
+            statement.executeUpdate();
+
+        }catch (SQLException ex){
+            ex.printStackTrace();
+        }
+    }
+
+    public void checkIn(String nickname, String email, String password){
+        logger.info("Вызван метод checkIn");
+        Connection connection = DataSource.getConnection();
+        logger.info("Подключение к БД прошло успешно");
+        try {
+            PreparedStatement statement = connection.prepareStatement(
+                    "INSERT INTO data (nickname, email, password) VALUES (?, ?, ?)"
+            );
+
+            statement.setString(1, nickname);
+            statement.setString(2, email);
+            statement.setString(3, password);
+
+            statement.executeUpdate();
+
+        }catch (SQLException ex){
+            ex.printStackTrace();
+        }
     }
 }

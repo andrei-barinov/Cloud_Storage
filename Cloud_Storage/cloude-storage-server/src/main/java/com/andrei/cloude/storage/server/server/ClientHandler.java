@@ -68,13 +68,14 @@ public class ClientHandler {
         }).start();
     }
 
+
     private void doAuth(){
         try {
             while (true){
                 String credentials = in.readUTF();
                 AtomicBoolean isAuth = new AtomicBoolean(false);
                 /**
-                 * "-auth n1@email.com 1"
+                 * "-auth andrei@email.com 1"
                  */
                 if(credentials.startsWith("-auth")){
                     /**
@@ -100,6 +101,30 @@ public class ClientHandler {
                                         @Override
                                         public void run() {
                                             sendMessage("Не найден пользователь с таким email и паролем");
+                                        }
+                                    }
+                            );
+                }
+                else if(credentials.startsWith("-checkIn")){
+                    /**
+                     * После сплитинга получим массив:
+                     * ["-checkIn", alex, "alex@email.com", "4"]
+                     */
+                    String[] credentialValues = credentials.split("\\s");
+                    server.getAuthenticationService()
+                            .doAuth(credentialValues[1], credentialValues[2])
+                            .ifPresentOrElse(
+                                    user ->  {
+                                        sendMessage("Текущий пользователь уже зарегистрирован");
+                                    },
+                                    new Runnable(){
+                                        @Override
+                                        public void run() {
+                                            server.doCheckIn(credentials);
+                                            sendMessage("Данные пользователя успешно добавлены в БД. Пройдите " +
+                                                    "аутентификацию");
+                                            logger.info("Данные пользователя успешно добавлены в БД. Пройдите " +
+                                                    "аутентификацию");
                                         }
                                     }
                             );
@@ -153,6 +178,10 @@ public class ClientHandler {
                         sendMessage("Файл удален из облака");
                     }
                     else sendMessage("Неверно введено имя файла");
+                }
+                else if(message.startsWith("-changePassword")){
+                    server.changePassword(this, message);
+                    sendMessage("Пароль успешно изменен");
                 }
                 else sendMessage("Неизвестная команда");
             }

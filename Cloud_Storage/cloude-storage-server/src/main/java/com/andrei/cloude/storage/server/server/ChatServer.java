@@ -2,6 +2,7 @@ package com.andrei.cloude.storage.server.server;
 
 import com.andrei.cloude.storage.server.auth.AuthenticationService;
 import com.andrei.cloude.storage.server.auth.BasicAuthenticationService;
+import com.andrei.cloude.storage.server.auth.UserRepository;
 import org.apache.log4j.Logger;
 
 import java.io.File;
@@ -98,5 +99,28 @@ public class ChatServer implements Server {
         return;
     }
 
+    /**
+     * Метод для смены пароля
+     * */
+    @Override
+    public void changePassword(ClientHandler client, String message) {
+        String password = message.replaceAll("-changePassword ","");
+        UserRepository userRepository = new UserRepository();
+        userRepository.changePassword(client.getName(), password);
+        logger.info("Пароль успешно изменен");
+    }
 
+    /**
+     * Регистрация нового пользователя
+     * */
+    @Override
+    public void doCheckIn(String message) {
+        logger.info("Вызван метод doCheckIn");
+        String[] cred = message.split("\\s");
+        String nickname = cred[1];
+        String email = cred[2];
+        String password = cred[3];
+        UserRepository userRepository = new UserRepository();
+        userRepository.checkIn(nickname, email, password);
+    }
 }

@@ -7,6 +7,8 @@ public interface Server {
     void subscribe(ClientHandler client);
     void unsubscribe(ClientHandler client);
     void createDirectory(ClientHandler client);
+    void changePassword(ClientHandler client, String message);
+    void doCheckIn(String message);
     AuthenticationService getAuthenticationService();
 
 }
