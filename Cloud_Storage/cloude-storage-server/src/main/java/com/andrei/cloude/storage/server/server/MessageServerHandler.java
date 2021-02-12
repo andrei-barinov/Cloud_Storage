@@ -48,7 +48,7 @@ public class MessageServerHandler {
      * */
     public String producePathFileOnServer(){
         String[] messageArr = message.split("%%%");
-        String pathOfFile = client.getDirectoryServerName() + "\\" + messageArr[1];
+        String pathOfFile = client.getDirectoryServerName() + "/" + messageArr[1];
         logger.info("Путь к файлу на сервере: " + pathOfFile);
         return pathOfFile;
     }

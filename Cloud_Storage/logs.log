@@ -451,3 +451,32 @@
 2021-02-12 08:38:05 INFO  ClientHandler:123 - Входящая команда на сервер: -exit
 2021-02-12 08:38:05 INFO  ChatServer:73 - Клиент andrei вышел из облака
 2021-02-12 08:38:05 INFO  ChatServer:73 - Клиент andrei вышел из облака
+2021-02-12 18:05:21 INFO  MessageClientHandler:40 - Размер загружаемого файла: 32 байт
+2021-02-12 18:07:11 INFO  MessageClientHandler:50 - Путь для выгрузки файла: C:/Users/Андрей/Desktop/Cloud_Storage/Cloud_Storage/download/D:\Загрузки\file.txt
+2021-02-12 18:08:15 INFO  MessageClientHandler:50 - Путь для выгрузки файла: C:/Users/Андрей/Desktop/Cloud_Storage/Cloud_Storage/download/D:\Загрузки\file.txt
+2021-02-12 18:11:23 INFO  MessageClientHandler:50 - Путь для выгрузки файла: C:/Users/Андрей/Desktop/Cloud_Storage/Cloud_Storage/download/D:\Загрузки\file.txt
+2021-02-12 18:13:58 INFO  MessageClientHandler:50 - Путь для выгрузки файла: C:/Users/Андрей/Desktop/Cloud_Storage/Cloud_Storage/download/file.txt
+2021-02-12 22:42:36 INFO  ChatServer:26 - Сервер запускается...
+2021-02-12 22:42:36 INFO  ChatServer:30 - Сервер успешно запущен
+2021-02-12 22:42:36 INFO  ChatServer:34 - Сервер ождидает подключения клиента...
+2021-02-12 22:42:41 INFO  ChatServer:36 - Клиент успешно подключился. Сокет: Socket[addr=/127.0.0.1,port=54711,localport=7777]
+2021-02-12 22:42:41 INFO  ChatServer:34 - Сервер ождидает подключения клиента...
+2021-02-12 22:42:55 INFO  ClientHandler:167 - Сообщение отправленное с сервера клиенту: Не найден пользователь с таким email и паролем
+2021-02-12 22:42:55 INFO  Client:59 - Не найден пользователь с таким email и паролем
+2021-02-12 22:44:14 INFO  ChatServer:26 - Сервер запускается...
+2021-02-12 22:44:14 INFO  ChatServer:30 - Сервер успешно запущен
+2021-02-12 22:44:14 INFO  ChatServer:34 - Сервер ождидает подключения клиента...
+2021-02-12 22:44:20 INFO  ChatServer:36 - Клиент успешно подключился. Сокет: Socket[addr=/127.0.0.1,port=54766,localport=7777]
+2021-02-12 22:44:20 INFO  ChatServer:34 - Сервер ождидает подключения клиента...
+2021-02-12 22:44:33 INFO  ClientHandler:167 - Сообщение отправленное с сервера клиенту: Не найден пользователь с таким email и паролем
+2021-02-12 22:44:33 INFO  Client:59 - Не найден пользователь с таким email и паролем
+2021-02-12 22:46:41 INFO  ChatServer:26 - Сервер запускается...
+2021-02-12 22:46:41 INFO  ChatServer:30 - Сервер успешно запущен
+2021-02-12 22:46:41 INFO  ChatServer:34 - Сервер ождидает подключения клиента...
+2021-02-12 22:46:50 INFO  ChatServer:36 - Клиент успешно подключился. Сокет: Socket[addr=/127.0.0.1,port=54816,localport=7777]
+2021-02-12 22:46:50 INFO  ChatServer:34 - Сервер ождидает подключения клиента...
+2021-02-12 22:46:52 INFO  ClientHandler:167 - Сообщение отправленное с сервера клиенту: Аутентификация прошла успешно
+2021-02-12 22:46:52 INFO  ChatServer:64 - Клиент andrei авторизовался
+2021-02-12 22:46:52 INFO  ChatServer:96 - Создана папка C:\Users\Андрей\Desktop\Cloud_Storage\Cloud_Storage\ServerStorage\andrei
+2021-02-12 22:46:52 INFO  Client:41 - Аутентификация прошла успешно
+2021-02-12 22:46:57 INFO  ChatServer:73 - Клиент andrei вышел из облака
