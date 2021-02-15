@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud-storage-client</artifactId>
+    <artifactId>cloud-storage-server</artifactId>
     <dependencies>
         <dependency>
             <groupId>com.andrei.cloud.storage</groupId>

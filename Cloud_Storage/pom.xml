@@ -4,16 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.andrei.cloude.storage</groupId>
+    <groupId>com.andrei.cloud.storage</groupId>
     <artifactId>Cloud_Storage</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>cloud-storage-client</module>
-        <module>cloude-storage-common</module>
-        <module>cloude-storage-server</module>
+        <module>cloud-storage-common</module>
+        <module>cloud-storage-server</module>
     </modules>
-
     <build>
         <plugins>
             <plugin>
@@ -57,17 +56,18 @@
             <version>1.2.17</version>
         </dependency>
         <dependency>
-            <groupId>com.andrei.cloude.storage</groupId>
-            <artifactId>cloud-storage-client</artifactId>
+            <groupId>com.andrei.cloud.storage</groupId>
+            <artifactId>cloud-storage-server</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.andrei.cloude.storage</groupId>
-            <artifactId>cloude-storage-server</artifactId>
+            <groupId>com.andrei.cloud.storage</groupId>
+            <artifactId>cloud-storage-client</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
+
 
 </project>
