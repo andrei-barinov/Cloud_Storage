@@ -11,5 +11,11 @@
         <module name="cloud-storage-server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-storage-client" target="15" />
+      <module name="cloud-storage-common" target="15" />
+      <module name="cloud-storage-server" target="15" />
+      <module name="Cloud_Storage" target="15" />
+    </bytecodeTargetLevel>
   </component>
 </project>
