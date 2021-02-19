@@ -3,6 +3,7 @@ package com.andrei.cloud.storage.server.server;
 import com.andrei.cloud.storage.server.auth.AuthenticationService;
 import com.andrei.cloud.storage.server.auth.BasicAuthenticationService;
 import com.andrei.cloud.storage.server.auth.UserRepository;
+import com.andrei.cloud.storage.server.server.clienthandler.ClientHandler;
 import org.apache.log4j.Logger;
 
 import java.io.File;

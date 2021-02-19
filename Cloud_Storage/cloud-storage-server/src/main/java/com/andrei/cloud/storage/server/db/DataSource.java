@@ -1,6 +1,5 @@
 package com.andrei.cloud.storage.server.db;
 
-import com.andrei.cloud.storage.server.server.ClientHandler;
 import org.apache.log4j.Logger;
 
 import java.sql.Connection;

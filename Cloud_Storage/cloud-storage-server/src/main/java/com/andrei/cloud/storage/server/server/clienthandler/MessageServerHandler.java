@@ -1,4 +1,4 @@
-package com.andrei.cloud.storage.server.server;
+package com.andrei.cloud.storage.server.server.clienthandler;
 
 import org.apache.log4j.Logger;
 import java.io.File;

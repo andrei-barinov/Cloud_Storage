@@ -1,6 +1,7 @@
 package com.andrei.cloud.storage.server.server;
 
 import com.andrei.cloud.storage.server.auth.AuthenticationService;
+import com.andrei.cloud.storage.server.server.clienthandler.ClientHandler;
 
 public interface Server {
     boolean isLoggedIn(String nickname);
