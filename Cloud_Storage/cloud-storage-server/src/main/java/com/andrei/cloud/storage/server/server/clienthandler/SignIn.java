@@ -13,7 +13,7 @@ public class SignIn {
     private com.andrei.cloud.storage.server.server.Server server;
     private ClientHandler client;
     private String credentials;
-    private static final Logger logger = Logger.getLogger(CheckIn.class.getName());
+    private static final Logger logger = Logger.getLogger(SignIn.class.getName());
     private AtomicBoolean isAuth;
 
     public SignIn(DataInputStream in, DataOutputStream out, Server server, ClientHandler client, String credentials, AtomicBoolean isAuth) {
@@ -49,6 +49,31 @@ public class SignIn {
                             @Override
                             public void run() {
                                 client.sendMessage("Не найден пользователь с таким email и паролем");
+                            }
+                        }
+                );
+    }
+
+    public void doChekIn(){
+        /**
+         * После сплитинга получим массив:
+         * ["-checkIn", alex, "alex@email.com", "4"]
+         */
+        String[] credentialValues = credentials.split("\\s");
+        server.getAuthenticationService()
+                .doAuth(credentialValues[1], credentialValues[2])
+                .ifPresentOrElse(
+                        user ->  {
+                            client.sendMessage("Текущий пользователь уже зарегистрирован");
+                        },
+                        new Runnable(){
+                            @Override
+                            public void run() {
+                                server.doCheckIn(credentials);
+                                client.sendMessage("Данные пользователя успешно добавлены в БД. Пройдите " +
+                                        "аутентификацию");
+                                logger.info("Данные пользователя успешно добавлены в БД. Пройдите " +
+                                        "аутентификацию");
                             }
                         }
                 );

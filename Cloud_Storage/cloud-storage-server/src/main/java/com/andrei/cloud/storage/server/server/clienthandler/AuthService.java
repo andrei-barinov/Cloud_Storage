@@ -27,16 +27,12 @@ public class AuthService {
             while (true){
                 String credentials = in.readUTF();
                 AtomicBoolean isAuth = new AtomicBoolean(false);
-                /**
-                 * "-auth andrei@email.com 1"
-                 */
+                SignIn signIn = new SignIn(this.in, this.out, this.server, client, credentials, isAuth);
                 if(credentials.startsWith("-auth")){
-                   SignIn signIn = new SignIn(this.in, this.out, this.server, client, credentials, isAuth);
                    signIn.doSignIn();
                 }
                 else if(credentials.startsWith("-checkIn")){
-                   CheckIn checkIn = new CheckIn(this.in, this.out, this.server, client, credentials);
-                   checkIn.doChekIn();
+                   signIn.doChekIn();
                 }
                 if(isAuth.get()){
                     break;
