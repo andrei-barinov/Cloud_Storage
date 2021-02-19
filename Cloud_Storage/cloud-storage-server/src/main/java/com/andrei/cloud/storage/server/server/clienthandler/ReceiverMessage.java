@@ -15,7 +15,7 @@ public class ReceiverMessage {
     private DataOutputStream out;
     private com.andrei.cloud.storage.server.server.Server server;
     private ClientHandler client;
-    private static final Logger logger = Logger.getLogger(CheckIn.class.getName());
+    private static final Logger logger = Logger.getLogger(ReceiverMessage.class.getName());
 
     public ReceiverMessage(DataInputStream in, DataOutputStream out, Server server, ClientHandler client) {
         this.in = in;
