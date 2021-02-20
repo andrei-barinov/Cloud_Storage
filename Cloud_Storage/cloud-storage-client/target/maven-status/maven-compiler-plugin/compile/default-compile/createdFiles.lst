@@ -1,0 +1,3 @@
+com\andrei\cloud\storage\client\Client.class
+com\andrei\cloud\storage\client\ClientApp.class
+com\andrei\cloud\storage\client\MessageClientHandler.class

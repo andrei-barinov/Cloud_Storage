@@ -1,0 +1,12 @@
+com\andrei\cloud\storage\server\auth\UserRepository.class
+com\andrei\cloud\storage\server\db\DataSource.class
+com\andrei\cloud\storage\server\server\ClientHandler$1.class
+com\andrei\cloud\storage\server\server\ClientHandler.class
+com\andrei\cloud\storage\server\server\ChatServer.class
+com\andrei\cloud\storage\server\auth\BasicAuthenticationService.class
+com\andrei\cloud\storage\server\server\MessageServerHandler.class
+com\andrei\cloud\storage\server\server\Server.class
+com\andrei\cloud\storage\server\ServerApp.class
+com\andrei\cloud\storage\server\auth\AuthenticationService.class
+com\andrei\cloud\storage\server\server\ClientHandler$2.class
+com\andrei\cloud\storage\server\entity\User.class

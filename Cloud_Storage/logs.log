@@ -1,0 +1,105 @@
+2021-02-15 11:54:22 INFO  MessageClientHandler:41 - Размер загружаемого файла: 32 байт
+2021-02-15 11:54:22 INFO  MessageClientHandler:51 - Путь для выгрузки файла: C:/Users/Андрей/Desktop/Cloud_Storage/Cloud_Storage/download/file.txt
+2021-02-15 11:55:10 INFO  ChatServer:27 - Сервер запускается...
+2021-02-15 11:55:10 INFO  ChatServer:31 - Сервер успешно запущен
+2021-02-15 11:55:10 INFO  ChatServer:35 - Сервер ождидает подключения клиента...
+2021-02-15 11:55:29 INFO  ChatServer:37 - Клиент успешно подключился. Сокет: Socket[addr=/127.0.0.1,port=62228,localport=7777]
+2021-02-15 11:55:29 INFO  ChatServer:35 - Сервер ождидает подключения клиента...
+2021-02-15 11:55:43 INFO  ChatServer:74 - Клиент null вышел из облака
+2021-02-15 11:57:41 INFO  ChatServer:27 - Сервер запускается...
+2021-02-15 11:57:41 INFO  ChatServer:31 - Сервер успешно запущен
+2021-02-15 11:57:41 INFO  ChatServer:35 - Сервер ождидает подключения клиента...
+2021-02-15 11:57:48 INFO  ChatServer:37 - Клиент успешно подключился. Сокет: Socket[addr=/127.0.0.1,port=62252,localport=7777]
+2021-02-15 11:57:48 INFO  ChatServer:35 - Сервер ождидает подключения клиента...
+2021-02-15 11:57:50 INFO  UserRepository:18 - Подключение к БД прошло успешно
+2021-02-15 11:57:50 INFO  ClientHandler:189 - Сообщение отправленное с сервера клиенту: Не найден пользователь с таким email и паролем
+2021-02-15 11:57:50 INFO  Client:55 - Не найден пользователь с таким email и паролем
+2021-02-15 11:58:07 INFO  UserRepository:18 - Подключение к БД прошло успешно
+2021-02-15 11:58:07 INFO  ClientHandler:189 - Сообщение отправленное с сервера клиенту: Не найден пользователь с таким email и паролем
+2021-02-15 11:58:07 INFO  Client:55 - Не найден пользователь с таким email и паролем
+2021-02-15 11:58:42 INFO  UserRepository:18 - Подключение к БД прошло успешно
+2021-02-15 11:58:42 INFO  ClientHandler:189 - Сообщение отправленное с сервера клиенту: Аутентификация прошла успешно
+2021-02-15 11:58:42 INFO  ChatServer:65 - Клиент andrei авторизовался
+2021-02-15 11:58:42 INFO  ChatServer:97 - Создана папка C:\Users\Андрей\Desktop\Cloud_Storage\Cloud_Storage\ServerStorage\andrei
+2021-02-15 11:58:42 INFO  Client:37 - Аутентификация прошла успешно
+2021-02-16 23:49:49 INFO  ChatServer:27 - Сервер запускается...
+2021-02-16 23:49:49 INFO  ChatServer:31 - Сервер успешно запущен
+2021-02-16 23:49:49 INFO  ChatServer:35 - Сервер ождидает подключения клиента...
+2021-02-16 23:50:25 INFO  ChatServer:27 - Сервер запускается...
+2021-02-16 23:50:25 INFO  ChatServer:31 - Сервер успешно запущен
+2021-02-16 23:50:25 INFO  ChatServer:35 - Сервер ождидает подключения клиента...
+2021-02-16 23:50:31 INFO  ChatServer:37 - Клиент успешно подключился. Сокет: Socket[addr=/127.0.0.1,port=51214,localport=7777]
+2021-02-16 23:50:31 INFO  ChatServer:35 - Сервер ождидает подключения клиента...
+2021-02-16 23:50:45 INFO  UserRepository:18 - Подключение к БД прошло успешно
+2021-02-16 23:50:45 INFO  ClientHandler:189 - Сообщение отправленное с сервера клиенту: Аутентификация прошла успешно
+2021-02-16 23:50:45 INFO  ChatServer:65 - Клиент andrei авторизовался
+2021-02-16 23:50:45 INFO  ChatServer:97 - Создана папка C:\Users\Андрей\Desktop\Cloud_Storage\Cloud_Storage\ServerStorage\andrei
+2021-02-16 23:50:45 INFO  Client:37 - Аутентификация прошла успешно
+2021-02-16 23:52:44 INFO  ChatServer:27 - Сервер запускается...
+2021-02-16 23:52:44 INFO  ChatServer:31 - Сервер успешно запущен
+2021-02-16 23:52:44 INFO  ChatServer:35 - Сервер ождидает подключения клиента...
+2021-02-16 23:52:48 INFO  ChatServer:37 - Клиент успешно подключился. Сокет: Socket[addr=/127.0.0.1,port=51250,localport=7777]
+2021-02-16 23:52:48 INFO  ChatServer:35 - Сервер ождидает подключения клиента...
+2021-02-16 23:53:03 INFO  ChatServer:74 - Клиент null вышел из облака
+2021-02-16 23:53:30 INFO  ChatServer:27 - Сервер запускается...
+2021-02-16 23:53:30 INFO  ChatServer:31 - Сервер успешно запущен
+2021-02-16 23:53:30 INFO  ChatServer:35 - Сервер ождидает подключения клиента...
+2021-02-16 23:53:32 INFO  ChatServer:37 - Клиент успешно подключился. Сокет: Socket[addr=/127.0.0.1,port=51268,localport=7777]
+2021-02-16 23:53:32 INFO  ChatServer:35 - Сервер ождидает подключения клиента...
+2021-02-16 23:53:44 INFO  UserRepository:18 - Подключение к БД прошло успешно
+2021-02-16 23:53:44 INFO  ClientHandler:189 - Сообщение отправленное с сервера клиенту: Аутентификация прошла успешно
+2021-02-16 23:53:44 INFO  ChatServer:65 - Клиент andrei авторизовался
+2021-02-16 23:53:44 INFO  ChatServer:97 - Создана папка C:\Users\Андрей\Desktop\Cloud_Storage\Cloud_Storage\ServerStorage\andrei
+2021-02-16 23:53:44 INFO  Client:37 - Аутентификация прошла успешно
+2021-02-16 23:53:56 INFO  ClientHandler:141 - Входящая команда на сервер: -upload D:\Загрузки\file.txt
+2021-02-16 23:53:56 INFO  Transmitter:46 - Доступный порт: 1
+2021-02-16 23:53:56 INFO  ClientHandler:141 - Входящая команда на сервер: -file_exists%%%D:\Загрузки\file.txt%%%32%%%1
+2021-02-16 23:53:56 INFO  MessageServerHandler:42 - Путь к файлу на сервере сгенерирован: C:\Users\Андрей\Desktop\Cloud_Storage\Cloud_Storage\ServerStorage\andrei\file.txt
+2021-02-16 23:53:56 INFO  MessageServerHandler:90 - Размер отправляемого файла: 32 байт
+2021-02-16 23:53:57 INFO  NioClient:50 - Файл успешно передан на NioServer, файл-канал закрыт
+2021-02-16 23:53:57 INFO  Transmitter:18 - Путь отправляемого файла: D:\Загрузки\file.txt
+2021-02-16 23:53:57 INFO  Client:46 - Такой файл существует. Запускается метод sendFile для отправки файла
+2021-02-16 23:53:57 INFO  NioServer:40 - Файл успешно сохранен, потоки закрыты
+2021-02-16 23:53:57 INFO  Client:55 - Файл сохранен в облаке
+2021-02-16 23:54:08 INFO  ClientHandler:141 - Входящая команда на сервер: -list
+2021-02-16 23:54:08 INFO  MessageServerHandler:60 - Вызван метод getListOfFile(). Файлы доступные для скачивания:
+2021-02-16 23:54:08 INFO  MessageServerHandler:60 - Вызван метод getListOfFile(). Файлы доступные для скачивания:
+2021-02-16 23:54:08 INFO  ClientHandler:189 - Сообщение отправленное с сервера клиенту: file.txt
+2021-02-16 23:54:08 INFO  Client:55 - file.txt
+2021-02-16 23:54:20 INFO  ClientHandler:141 - Входящая команда на сервер: -download file.txt
+2021-02-16 23:54:20 INFO  MessageServerHandler:52 - Путь к файлу на сервере: C:\Users\Андрей\Desktop\Cloud_Storage\Cloud_Storage\ServerStorage\andrei/file.txt
+2021-02-16 23:54:20 INFO  MessageServerHandler:80 - Имя файла: file.txt
+2021-02-16 23:54:20 INFO  MessageServerHandler:42 - Путь к файлу на сервере сгенерирован: C:\Users\Андрей\Desktop\Cloud_Storage\Cloud_Storage\ServerStorage\andrei\file.txt
+2021-02-16 23:54:20 INFO  MessageServerHandler:102 - Размер исходящего файла: 32
+2021-02-16 23:54:20 INFO  Transmitter:46 - Доступный порт: 1
+2021-02-16 23:54:20 INFO  ClientHandler:189 - Сообщение отправленное с сервера клиенту: -exists_file%%%file.txt%%%32%%%1
+2021-02-16 23:54:20 INFO  ClientHandler:141 - Входящая команда на сервер: -exists_file%%%file.txt%%%32%%%1
+2021-02-16 23:54:20 INFO  MessageServerHandler:52 - Путь к файлу на сервере: C:\Users\Андрей\Desktop\Cloud_Storage\Cloud_Storage\ServerStorage\andrei/file.txt
+2021-02-16 23:54:20 INFO  MessageClientHandler:51 - Путь для выгрузки файла: C:/Users/Андрей/Desktop/Cloud_Storage/Cloud_Storage/download/file.txt
+2021-02-16 23:54:20 INFO  MessageClientHandler:41 - Размер загружаемого файла: 32 байт
+2021-02-16 23:54:21 INFO  NioClient:50 - Файл успешно передан на NioServer, файл-канал закрыт
+2021-02-16 23:54:21 INFO  Transmitter:18 - Путь отправляемого файла: C:\Users\Андрей\Desktop\Cloud_Storage\Cloud_Storage\ServerStorage\andrei/file.txt
+2021-02-16 23:54:21 INFO  NioServer:40 - Файл успешно сохранен, потоки закрыты
+2021-02-19 12:47:16 INFO  ChatServer:27 - Сервер запускается...
+2021-02-19 12:47:16 INFO  ChatServer:31 - Сервер успешно запущен
+2021-02-19 12:47:16 INFO  ChatServer:35 - Сервер ождидает подключения клиента...
+2021-02-19 12:47:21 INFO  ChatServer:37 - Клиент успешно подключился. Сокет: Socket[addr=/127.0.0.1,port=50425,localport=7777]
+2021-02-19 12:47:21 INFO  ChatServer:35 - Сервер ождидает подключения клиента...
+2021-02-19 12:47:41 INFO  UserRepository:18 - Подключение к БД прошло успешно
+2021-02-19 12:47:41 INFO  ClientHandler:129 - Сообщение отправленное с сервера клиенту: Аутентификация прошла успешно
+2021-02-19 12:47:41 INFO  ChatServer:65 - Клиент andrei авторизовался
+2021-02-19 12:47:41 INFO  Client:37 - Аутентификация прошла успешно
+2021-02-19 13:08:55 INFO  ChatServer:28 - Сервер запускается...
+2021-02-19 13:08:55 INFO  ChatServer:32 - Сервер успешно запущен
+2021-02-19 13:08:55 INFO  ChatServer:36 - Сервер ождидает подключения клиента...
+2021-02-19 13:08:58 INFO  ChatServer:38 - Клиент успешно подключился. Сокет: Socket[addr=/127.0.0.1,port=50513,localport=7777]
+2021-02-19 13:08:58 INFO  ChatServer:36 - Сервер ождидает подключения клиента...
+2021-02-19 13:11:43 INFO  ChatServer:28 - Сервер запускается...
+2021-02-19 13:11:43 INFO  ChatServer:32 - Сервер успешно запущен
+2021-02-19 13:11:43 INFO  ChatServer:36 - Сервер ождидает подключения клиента...
+2021-02-19 13:11:49 INFO  ChatServer:38 - Клиент успешно подключился. Сокет: Socket[addr=/127.0.0.1,port=50529,localport=7777]
+2021-02-19 13:11:49 INFO  ChatServer:36 - Сервер ождидает подключения клиента...
+2021-02-19 13:11:51 INFO  UserRepository:18 - Подключение к БД прошло успешно
+2021-02-19 13:11:51 INFO  ClientHandler:129 - Сообщение отправленное с сервера клиенту: Аутентификация прошла успешно
+2021-02-19 13:11:51 INFO  ChatServer:66 - Клиент andrei авторизовался
+2021-02-19 13:11:51 INFO  Client:37 - Аутентификация прошла успешно
